@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_inicio_home_seccions",
+  "info": {
+    "name": "seccion",
+    "icon": "border-none"
+  },
+  "options": {},
+  "attributes": {
+    "titulo_seccion": {
+      "type": "string"
+    },
+    "subtitulo_seccion": {
+      "type": "string"
+    },
+    "boton_seccion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "inicio-home.boton-seccion"
+    },
+    "alias": {
+      "type": "string"
+    }
+  }
+}

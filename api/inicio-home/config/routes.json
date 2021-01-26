@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/inicio-home",
+      "handler": "inicio-home.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/inicio-home",
+      "handler": "inicio-home.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/inicio-home",
+      "handler": "inicio-home.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

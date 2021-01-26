@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_inicio_home_boton_seccions",
+  "info": {
+    "name": "boton_seccion",
+    "icon": "window-maximize"
+  },
+  "options": {},
+  "attributes": {
+    "nombre_boton": {
+      "type": "string"
+    },
+    "url_boton": {
+      "type": "string"
+    }
+  }
+}

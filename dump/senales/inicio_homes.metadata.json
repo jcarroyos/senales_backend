@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"senales.inicio_homes"}],"uuid":"d0ff7f022af64f64ae4f82fccd8399ba"}

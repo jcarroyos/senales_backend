@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"senales.lugars"},{"v":{"$numberInt":"2"},"key":{"Nombre":{"$numberInt":"1"}},"name":"Nombre_1","ns":"senales.lugars","background":true}],"uuid":"864967cd66f14816946621372797a15c"}

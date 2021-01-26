@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"senales.components_inicio_home_slider_homes"}],"uuid":"0bd4b5a550cd4bb8bbee5ca6c7b57638"}

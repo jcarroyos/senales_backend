@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"senales.upload_file"}],"uuid":"6d978c06bbf743c2bfb0c3f5f73fc7a5"}

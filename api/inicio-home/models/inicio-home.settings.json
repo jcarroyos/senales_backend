@@ -1,0 +1,61 @@
+{
+  "kind": "singleType",
+  "collectionName": "inicio_homes",
+  "info": {
+    "name": "InicioHome"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "inicio-home.header"
+    },
+    "imagen_inicio": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Rotador": {
+      "type": "component",
+      "repeatable": true,
+      "component": "inicio-home.slider-home"
+    },
+    "categorias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "inicio-home.seccion"
+    },
+    "playvideo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "ImageFondo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

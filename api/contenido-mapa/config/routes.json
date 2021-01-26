@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/contenido-mapa",
+      "handler": "contenido-mapa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/contenido-mapa",
+      "handler": "contenido-mapa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/contenido-mapa",
+      "handler": "contenido-mapa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_inicio_home_slider_homes",
+  "info": {
+    "name": "slider_home",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "inicio-home.slider"
+    }
+  }
+}

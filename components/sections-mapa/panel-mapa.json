@@ -1,0 +1,48 @@
+{
+  "collectionName": "panelMapa",
+  "info": {
+    "name": "panelMapa",
+    "icon": "receipt"
+  },
+  "options": {},
+  "attributes": {
+    "tituloSeccion": {
+      "type": "string"
+    },
+    "descripcionSeccion": {
+      "type": "text"
+    },
+    "seccionImagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "idseccion": {
+      "type": "string"
+    },
+    "claseSeccion": {
+      "type": "string"
+    },
+    "latitud": {
+      "type": "string"
+    },
+    "longitud": {
+      "type": "string"
+    },
+    "zoom": {
+      "type": "string"
+    },
+    "bearing": {
+      "type": "string"
+    },
+    "pitch": {
+      "type": "string"
+    }
+  }
+}

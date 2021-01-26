@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "contenido_galerias",
+  "info": {
+    "name": "contenidoGaleria"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "subtitulo": {
+      "type": "string"
+    },
+    "descripccionUna": {
+      "type": "text"
+    },
+    "descripccionDos": {
+      "type": "text"
+    },
+    "InfoBusqueda": {
+      "type": "string"
+    }
+  }
+}

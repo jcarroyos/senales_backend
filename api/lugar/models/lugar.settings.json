@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lugars",
+  "info": {
+    "name": "Lugar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Latitud": {
+      "type": "float"
+    },
+    "Longitud": {
+      "type": "float"
+    },
+    "Departamento": {
+      "type": "string"
+    },
+    "Municipio": {
+      "type": "string"
+    },
+    "Nombre": {
+      "type": "string",
+      "unique": false
+    },
+    "reflejo": {
+      "via": "lugars",
+      "model": "reflejo"
+    },
+    "senale": {
+      "via": "lugar",
+      "model": "senales"
+    }
+  }
+}

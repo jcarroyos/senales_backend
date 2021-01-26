@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"senales.contenidoMapa"}],"uuid":"b9328292c0e74822a67c525058b7a6f0"}

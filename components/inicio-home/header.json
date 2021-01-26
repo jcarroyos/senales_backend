@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_inicio_home_headers",
+  "info": {
+    "name": "header",
+    "icon": "hotel"
+  },
+  "options": {},
+  "attributes": {
+    "red_social": {
+      "type": "string"
+    },
+    "url_redsocial": {
+      "type": "string"
+    },
+    "img_social_red": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

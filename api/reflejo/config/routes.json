@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/reflejos",
+      "handler": "reflejo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reflejos/count",
+      "handler": "reflejo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/reflejos/:id",
+      "handler": "reflejo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/reflejos",
+      "handler": "reflejo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/reflejos/:id",
+      "handler": "reflejo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/reflejos/:id",
+      "handler": "reflejo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

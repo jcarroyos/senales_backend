@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reflejos",
+  "info": {
+    "name": "Reflejo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    },
+    "Multimedia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "senale": {
+      "via": "reflejos",
+      "model": "senales"
+    },
+    "lugars": {
+      "collection": "lugar",
+      "via": "reflejo"
+    },
+    "videoReflejo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "publicar": {
+      "type": "boolean",
+      "required": false
+    }
+  }
+}

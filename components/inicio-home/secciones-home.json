@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_inicio_home_secciones_homes",
+  "info": {
+    "name": "secciones_home",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "seccion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "inicio-home.seccion"
+    }
+  }
+}

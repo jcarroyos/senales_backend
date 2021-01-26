@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "senales",
+  "info": {
+    "name": "senales"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descripccion": {
+      "type": "text",
+      "required": true
+    },
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "lista_category": {
+      "model": "lista-category"
+    },
+    "reflejos": {
+      "collection": "reflejo",
+      "via": "senale"
+    },
+    "lugar": {
+      "model": "lugar",
+      "via": "senale"
+    },
+    "Videosenal": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

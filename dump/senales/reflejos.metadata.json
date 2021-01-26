@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"senales.reflejos"}],"uuid":"b2df34dd3e354a8d97bd4fedd5da0861"}

@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "contenidoMapa",
+  "info": {
+    "name": "contenidoMapa"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "latitud": {
+      "type": "string"
+    },
+    "longitud": {
+      "type": "string"
+    },
+    "zoom": {
+      "type": "string"
+    },
+    "urlmapa": {
+      "type": "string"
+    },
+    "mapaInformacion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections-mapa.panel-mapa"
+    },
+    "accessToken": {
+      "type": "string"
+    },
+    "bearing": {
+      "type": "string"
+    },
+    "pitch": {
+      "type": "string"
+    }
+  }
+}

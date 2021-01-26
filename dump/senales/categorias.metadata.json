@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"senales.categorias"}],"uuid":"e7a1c90fbeaa43fcaa95f967112a1395"}
