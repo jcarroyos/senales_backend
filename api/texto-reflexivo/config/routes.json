@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/texto-reflexivo",
+      "handler": "texto-reflexivo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/texto-reflexivo",
+      "handler": "texto-reflexivo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/texto-reflexivo",
+      "handler": "texto-reflexivo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

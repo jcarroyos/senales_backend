@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "texto_reflexivos",
+  "info": {
+    "name": "textoReflexivo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "cuerpo": {
+      "type": "text"
+    }
+  }
+}
