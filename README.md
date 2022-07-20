@@ -1,3 +1,3 @@
 # API Señales
 
-Marta Combariza Osorio
+Marta Combariza Osorio.
