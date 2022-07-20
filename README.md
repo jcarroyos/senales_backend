@@ -1,3 +1,3 @@
-# Strapi application
+# API Señales
 
-A quick description of your strapi application
+Marta Combariza Osorio
